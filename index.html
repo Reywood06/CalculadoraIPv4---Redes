@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculadora IPv4</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <h1>Calculadora IPv4</h1>
+  <form>
+    <label for="ip">Direccion IPv4:</label>
+    <input type="text" id="ip" name="ip"><br><br>
+    <label for="subnet">Mascara:</label>
+    <input type="text" id="subnet" name="subnet"><br><br>
+    <input type="button" value="Calcular" onclick="calculateNetwork()">
+  </form>
+  <div id="result"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
